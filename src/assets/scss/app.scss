@@ -1,0 +1,9 @@
+// add bootstrap vue
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap-vue/src/index";
+// reset
+@import "./reset";
+@import "./typography";
+@import "./utility";
+
+@import "./components/HotelItems"

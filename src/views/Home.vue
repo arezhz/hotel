@@ -1,18 +1,19 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <b-container class="mt-5">
+    <b-row class="justify-content-md-center">
+      <b-col :md="6">
+        <search-wrapper></search-wrapper>
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import SearchWrapper from "@/components/SearchWrapper";
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-    HelloWorld
+    SearchWrapper
   }
-}
+};
 </script>
